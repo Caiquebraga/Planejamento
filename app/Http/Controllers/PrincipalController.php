@@ -11,6 +11,6 @@ class PrincipalController extends Controller
 
         $plaEstra = $planejamento->all();
 
-        return view ('index', ['plaEstra' => $plaEstra]);
+        return view ('lista_pei/index', ['plaEstra' => $plaEstra]);
     }
 }
