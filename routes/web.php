@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PrincipalController;
+use App\Http\Controllers\CadastrarPeiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,4 @@ Route::get('/', function () {
 
 
 Route::get('/', [PrincipalController::class, 'index'])->name('indexHome');
+Route::get('/', [CadastrarPeiController::class, 'cadastrar'])->name('cadastrarPei');
