@@ -35,7 +35,7 @@ class CadastrarPeiController extends Controller
                     'plaPublicacao' => $request->input('plaPublicacao'),
                 ]);
 
-                return redirect()->route('lista_pei.index')->with('success', 'Planejamento criado com sucesso!');
+                return redirect()->route('lista_pei/index')->with('success', 'Planejamento criado com sucesso!');
             }
 
 }
