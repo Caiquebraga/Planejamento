@@ -10,13 +10,6 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 text-end mt-3">
-                <button type="button" class="btn btn-primary">Adicionar PEI</button>
-            </div>
-        </div>
-    </div>
     <div class="container">
         <h1>Planejamento Estratégico</h1>
         @yield('content')

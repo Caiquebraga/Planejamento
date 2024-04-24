@@ -21,4 +21,5 @@ Route::get('/', function () {
 
 
 Route::get('/', [PrincipalController::class, 'index'])->name('indexHome');
-Route::get('/', [CadastrarPeiController::class, 'cadastrar'])->name('cadastrarPei');
+Route::POST('/cadastro-pei', [CadastrarPeiController::class, 'cadastrar'])->name('cadastrarPei');
+
